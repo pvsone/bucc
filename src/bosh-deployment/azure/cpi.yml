@@ -16,6 +16,8 @@
   type: replace
   value:
     instance_type: Standard_D1_v2
+    ephemeral_disk:
+      size: 25_000
 - path: /networks/name=default/subnets/0/cloud_properties?
   type: replace
   value:
